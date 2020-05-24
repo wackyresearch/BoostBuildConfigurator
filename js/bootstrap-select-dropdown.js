@@ -375,11 +375,11 @@ var bootstrap_select_dropdown_SelectDropdown = function ($) {
     textMultipleSelected: "%count_selected% selected",
     textNoResults: "No results",
     // Controls
-    deselectAll: true,
+    deselectAll: false,
     // Multiselect only
-    selectAll: true,
+    selectAll: false,
     // Multiselect only
-    showSelected: true,
+    showSelected: false,
     // Multiselect only
     // Buttons
     selectButtons: false,

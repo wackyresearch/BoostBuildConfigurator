@@ -82,7 +82,7 @@
       <div class="form-group col-md-3">
         <label for="link_type">Link Type</label>
         <select id="link_type" class="form-control">
-          <option selected>dynamic</option>
+          <option selected>shared</option>
           <option>static</option>
         </select>
       </div>
@@ -117,17 +117,36 @@
     <div class="form-group">
       <label for="modules">Select one or more modules</label>
       <select id="modules" class="form-control" data-role="select-dropdown" multiple>
+          <option data-param="--with-atomic">Atomic</option>
+          <option data-param="--with-chrono">Chrono</option>
+          <option data-param="--with-container">Container</option>
+          <option data-param="--with-context">Context</option>
+          <option data-param="--with-contract">Contract</option>
+          <option data-param="--with-coroutine">Coroutine</option>
+          <option data-param="--with-date_time">DateTime</option>
+          <option data-param="--with-exception">Exception</option>
+          <option data-param="--with-fiber">Fiber</option>
           <option data-param="--with-filesystem">Filesystem</option>
+          <option data-param="--with-graph">Graph</option>
           <option data-param="--with-graph_parallel">GraphParallel</option>
-          <option data-param="--with-io_streams">IOStreams</option>
+          <option data-param="--with-headers">Headers</option>
+          <option data-param="--with-iostreams">IOStreams</option>
+          <option data-param="--with-locale">Locale</option>
+          <option data-param="--with-log">Log</option>
+          <option data-param="--with-math">Math</option>
           <option data-param="--with-mpi">MPI</option>
+          <option data-param="--with-nowide">Nowide</option>
           <option data-param="--with-program_options">ProgramOptions</option>
           <option data-param="--with-python">Python</option>
+          <option data-param="--with-random">Random</option>
           <option data-param="--with-regex">Regex</option>
           <option data-param="--with-serialization">Serialization</option>
-          <option data-param="--with-signals">Signals</option>
+          <option data-param="--with-stacktrace">Stacktrace</option>
           <option data-param="--with-system">System</option>
+          <option data-param="--with-test">Test</option>
           <option data-param="--with-thread">Thread</option>
+          <option data-param="--with-timer">Timer</option>
+          <option data-param="--with-type_erasure">TypeErasure</option>
           <option data-param="--with-wave">Wave</option>
       </select>
     </div>
@@ -148,5 +167,6 @@
       </div>
     </div>
   </form>
+
 </body>
 </html>
